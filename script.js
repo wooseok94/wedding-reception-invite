@@ -143,21 +143,21 @@ function shareKakao() {
     Kakao.Share.sendDefault({
         objectType: 'feed',
         content: {
-            title: '김우석 ♥ 신한영 결혼합니다',
-            description: '2026년 6월 20일 토요일 오후 12시 10분',
+            title: '김우석 ♥ 신한영 피로연에 초대합니다',
+            description: '2026년 6월 13일 토요일 오후 17시 30분',
             imageUrl:
-                'https://wooseok94.github.io/wedding-invite/img/1.jpg', // 메시지에 보일 대표 이미지 주소
+                'https://wooseok94.github.io/wedding-reception-invite/img/1.jpg', // 메시지에 보일 대표 이미지 주소
             link: {
-                mobileWebUrl: 'https://wooseok94.github.io/wedding-invite/',
-                webUrl: 'https://wooseok94.github.io/wedding-invite/',
+                mobileWebUrl: 'https://wooseok94.github.io/wedding-reception-invite/',
+                webUrl: 'https://wooseok94.github.io/wedding-reception-invite/',
             },
         },
         buttons: [
             {
                 title: '모바일 청첩장 보기',
                 link: {
-                    mobileWebUrl: 'https://wooseok94.github.io/wedding-invite/',
-                    webUrl: 'https://wooseok94.github.io/wedding-invite/',
+                    mobileWebUrl: 'https://wooseok94.github.io/wedding-reception-invite/',
+                    webUrl: 'https://wooseok94.github.io/wedding-reception-invite/',
                 },
             },
         ],
@@ -232,7 +232,7 @@ function copyAccount(accountNumber) {
 }
 
 function updateDDay() {
-    const weddingDate = new Date("2026-06-20T12:10:00"); // 예식 날짜 설정
+    const weddingDate = new Date("2026-06-13T17:30:00"); // 피로연 날짜 설정
     const now = new Date();
 
     // 두 날짜의 차이 계산 (밀리초 단위)

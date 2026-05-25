@@ -115,7 +115,7 @@
             <script>
                 // 1. 지도 옵션 설정 (보내주신 링크의 정확한 위치)
                 var mapOptions = {
-                    center: new naver.maps.LatLng(36.8273731640509, 128.621563410147), // SW컨벤션센터 위치
+                    center: new naver.maps.LatLng(36.8273, 128.621563410147), // SW컨벤션센터 위치
                     zoom: 17,
                     zoomControl: false,
                     mapDataControl: false,
@@ -127,7 +127,7 @@
 
                 // 2. 요청하신 마커 이미지 적용
                 var marker = new naver.maps.Marker({
-                    position: new naver.maps.LatLng(36.8273731640509, 128.621563410147), // SW컨벤션센터 위치
+                    position: new naver.maps.LatLng(36.8273, 128.621563410147), // SW컨벤션센터 위치
                     map: map,
                     icon: {
                         // 보내주신 마커 이미지 주소 사용
@@ -143,7 +143,7 @@
 
                 // 3. 정보창 (마커 위 텍스트)
                 var infowindow = new naver.maps.InfoWindow({
-                    content: '<div style="padding:8px 12px; font-weight:600; font-size:14px; color:#333;">SW컨벤션센터</div>',
+                    content: '<div style="padding:8px 12px; font-weight:600; font-size:14px; color:#333;">남서울 웨딩</div>',
                     borderWidth: 1,
                     borderColor: "#ddd",
                     backgroundColor: "#fff",

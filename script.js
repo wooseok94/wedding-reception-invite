@@ -143,8 +143,8 @@ function shareKakao() {
     Kakao.Share.sendDefault({
         objectType: 'feed',
         content: {
-            title: '김우석 ♥ 신한영 피로연에 초대합니다',
-            description: '2026년 6월 13일 토요일 오후 17시 30분',
+            title: '父김시운, 母이순덕의 子 김우석님의 결혼 피로연에 초대합니다',
+            description: '2026년 6월 13일 토요일 오후 17시 30분 남서울웨딩',
             imageUrl:
                 'https://wooseok94.github.io/wedding-reception-invite/img/1.jpg', // 메시지에 보일 대표 이미지 주소
             link: {
